@@ -17,10 +17,6 @@ server_script 'server.lua'
 
 client_scripts {
     'config.lua',
-    'vendor/freecam/utils.lua',
-    'vendor/freecam/config.lua',
-    'vendor/freecam/main.lua',
-    'vendor/freecam/camera.lua',
 	'client/main.lua',
     'client/carmenu.lua',
 }

@@ -146,12 +146,3 @@ SetTimeout(1000, function()
         { name = 'heading', help = 'Save your current heading.' },
     })
 end)
-
-local noClip = false
-
--- https://github.com/Deltanic/fivem-freecam/
--- https://github.com/tabarra/txAdmin/tree/master/scripts/menu/vendor/freecam
-RegisterCommand('noclip', function()
-    noClip = not noClip
-    SetFreecamActive(noClip)
-end, true)
